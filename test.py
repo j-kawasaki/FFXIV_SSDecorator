@@ -5,7 +5,7 @@ import sys
 
 detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor("./shape_predictor_68_face_landmarks.dat")
-img = cv2.imread("./chara.png")
+img = cv2.imread("./chara4.png")
 
 faces = detector(img)
 
